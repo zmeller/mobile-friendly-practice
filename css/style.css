@@ -3,17 +3,32 @@ header{
     background-image: url('../img/wave.svg');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 150px;
+    height: 300px;
     text-align: center;
 }
 h1{
     color: aliceblue;
 }
-
+/* css for phone */
+body{
+    background-color: yellow;
+}
+/* css for tablet */
+@media only screen and (min-width: 600px) {
+    body {
+        background-color: lightblue;
+    }
+}
+/* css for computer */
+@media only screen and (min-width: 900px) {
+    body {
+        background-color: red;
+    }
+}
 
 div{
     background-color: white;
-    height: 1000px;
+  
     text-align: center;
    
 }
